@@ -258,7 +258,7 @@
                         const share = delta / increasedUsers.length;
                         addMessage(`Total increase $${delta.toFixed(2)}`, 'success');
                         increasedUsers.forEach(user => {
-                            addMessage(`User ${user} got a bounty of $${share.toFixed(2)}`, 'success');
+                            addMessage(`+--- User ${user} got a bounty of $${share.toFixed(2)}`, 'success');
                         });
                     } else {
                         addMessage(`User ${increasedUsers[0]} got a bounty of $${delta.toFixed(2)}`, 'success');
